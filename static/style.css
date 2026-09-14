@@ -1,32 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    text-align: center;
-    margin-top: 80px;
+    font-family: 'Inter', sans-serif;
+    background-color: #14181F;
+    color: #E8ECF1;
+    line-height: 1.6;
+    padding: 40px 24px;
 }
 
-h1 {
-    color: #2c7be5;
-}
-
-p {
-    font-size: 18px;
+main {
+    max-width: 640px;
+    margin: 0 auto;
 }
 
 nav {
-    margin-bottom: 30px;
+    max-width: 640px;
+    margin: 0 auto 60px auto;
+    display: flex;
+    gap: 24px;
 }
 
 nav a {
-    margin: 0 15px;
     text-decoration: none;
-    color: #2c7be5;
-    font-weight: bold;
+    color: #8B93A7;
+    font-weight: 500;
+    font-size: 15px;
+    transition: color 0.15s ease;
+}
+
+nav a:hover {
+    color: #F2B84B;
+}
+
+h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 1.15;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+h2 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #F2B84B;
+    margin-bottom: 8px;
+}
+
+p {
+    font-size: 17px;
+    color: #C4CAD6;
+    margin-bottom: 16px;
+    max-width: 60ch;
+}
+
+a {
+    color: #5FB8A6;
+}
+
+.tagline {
+    color: #8B93A7;
+    font-size: 18px;
+    margin-bottom: 32px;
 }
 
 .project {
-    margin: 30px auto;
-    max-width: 500px;
-    text-align: left;
+    padding: 20px 0;
+    border-top: 1px solid #2A3140;
+}
+
+.project:last-child {
+    border-bottom: 1px solid #2A3140;
+}
+
+form input {
+    background: #1C2230;
+    border: 1px solid #2A3140;
+    color: #E8ECF1;
+    padding: 10px 14px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    margin-right: 8px;
+}
+
+form button {
+    background: #F2B84B;
+    border: none;
+    color: #14181F;
+    padding: 10px 18px;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+}
+
+form button:hover {
+    opacity: 0.9;
 }
