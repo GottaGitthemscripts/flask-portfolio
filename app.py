@@ -4,11 +4,15 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return render_template("index.html", name="world")
+    return render_template("index.html")
 
-@app.route("/about")
-def about():
-    return "<h1>About Page</h1><p>This is a simple Flask app I'm building.</p>"
+@app.route("/projects")
+def projects():
+    return render_template("projects.html")
+
+@app.route("/contact")
+def contact():
+    return render_template("contact.html")
 
 @app.route("/greet", methods=["GET", "POST"])
 def greet():

@@ -13,3 +13,20 @@ h1 {
 p {
     font-size: 18px;
 }
+
+nav {
+    margin-bottom: 30px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #2c7be5;
+    font-weight: bold;
+}
+
+.project {
+    margin: 30px auto;
+    max-width: 500px;
+    text-align: left;
+}

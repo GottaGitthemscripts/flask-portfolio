@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>My First Flask App</title>
-</head>
-<body>
-    <h1>Hello, {{ name }}!</h1>
-    <p>This is my first Flask web app.</p>
-</body>
-</html>
+{% extends "base.html" %}
+{% block title %}About Me{% endblock %}
+{% block content %}
+    <h1>Hi, I'm Jacob Parks</h1>
+    <p>I'm a student learning to code. This site is my portfolio, built with Python and Flask.</p>
+    <p>A little about me: I am a determined high school student with a passion for learning how coding can make the world a better place. I do marching band (Go drumline), and in my free time, I like to watch sports and hangout with family and friends.</p>
+{% endblock %}
