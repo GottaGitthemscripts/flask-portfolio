@@ -19,4 +19,4 @@ A simple Flask web application with multiple pages, HTML templates, and custom C
 6. Open `http://127.0.0.1:5000` in your browser
 
 ## What I learned
-*(fill this in — a sentence or two about what was new or tricky for you)*
+How to push changes to a github repo, basic flask usage. 
