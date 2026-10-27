@@ -1,6 +1,8 @@
 # Flask Portfolio
 
-My first Python web app, built with Flask. This project is part of my college portfolio.
+This Project is part of my college portfolio. I am using Flask documentation and video tutorials to help me get my feet wet with more advanced Python.
+
+IDE used was VS Code.
 
 ## What it does
 A simple Flask web application with multiple pages, HTML templates, and custom CSS styling.
